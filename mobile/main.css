@@ -1,21 +1,21 @@
 @font-face {
   font-family:'OCR-A-Regular';
-  src: url('resources/OCR-A-Regular.otf');
+  src: url('../resources/OCR-A-Regular.otf');
 }
 @font-face {
   font-family:'matrix';
-  src: url('resources/matrix.ttf');
+  src: url('../resources/matrix.ttf');
 }
 @font-face {
   font-family:'miltown';
-  src: url('resources/miltown.ttf');
+  src: url('../resources/miltown.ttf');
 }
 @font-face {
   font-family:'miltownII';
-  src: url('resources/miltownII.ttf');
+  src: url('../resources/miltownII.ttf');
 }
 body {
-  background: #000000;
+  background:url(../resources/matrix.gif);
   font-family: 'OCR-A-Regular';
   text-align: center;
 }
@@ -26,7 +26,7 @@ body {
   z-index: 100;
   text-align: center;
   margin:auto;
-  margin-top: 40vh;
+  margin-top: 10vh;
   font-family: miltown;
 }
 h1 {

@@ -15,7 +15,7 @@
   src: url('resources/miltownII.ttf');
 }
 body {
-  background: #000000;
+  background:url(resources/matrix.gif);
   font-family: 'OCR-A-Regular';
   text-align: center;
 }

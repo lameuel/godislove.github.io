@@ -16,7 +16,7 @@
 }
 /*Thank you to the creators of these fonts! no harm is intended by their use*/
 body {
-  background:cover url(../resources/matrix.gif); /*Thank you to the creator of this image! no harm is intended by it's use*/
+  background:url(../resources/matrix.gif) cover; /*Thank you to the creator of this image! no harm is intended by it's use*/
 
   font-family: 'OCR-A-Regular';
   text-align: center;

@@ -15,14 +15,15 @@
   src: url('../resources/miltownII.ttf');
 }
 body {
-  background:url(../resources/matrix.gif); /*Thank you to the creator of this image! no harm is intended by it's use*/
+  background:cover url(../resources/matrix.gif); /*Thank you to the creator of this image! no harm is intended by it's use*/
+
   font-family: 'OCR-A-Regular';
   text-align: center;
 }
 #titleindex {
   display: block;
   text-shadow: -1px -1px 0 #00ff15, 1px -1px 0 #00ff15, -1px 1px 0 #00ff15, 1px 1px 0 #00ff15;
-  font-size: 5rem;
+  font-size: 7rem;
   z-index: 100;
   text-align: center;
   margin:auto;

@@ -1,0 +1,259 @@
+@font-face {
+  font-family:'OCR-A-Regular';
+  src: url('resources/OCR-A-Regular.otf');
+}
+@font-face {
+  font-family:'matrix';
+  src: url('resources/matrix.ttf');
+}
+@font-face {
+  font-family:'miltown';
+  src: url('resources/miltown.ttf');
+}
+@font-face {
+  font-family:'miltownII';
+  src: url('resources/miltownII.ttf');
+}
+body {
+  background: #000000;
+  font-family: 'OCR-A-Regular';
+  text-align: center;
+}
+#titleindex {
+  display: block;
+  text-shadow: -1px -1px 0 #00ff15, 1px -1px 0 #00ff15, -1px 1px 0 #00ff15, 1px 1px 0 #00ff15;
+  font-size: 5rem;
+  z-index: 100;
+  text-align: center;
+  margin:auto;
+  margin-top: 40vh;
+  font-family: miltown;
+}
+h1 {
+  font-weight:lighter;
+}
+#title {
+  background:black;
+  top:0;
+  position:sticky;
+  display: block;
+  /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
+  font-size: 1.5rem;
+  z-index: 100;
+  text-align: center;
+  padding-bottom:1vh;
+}
+#title a:link {
+  color:white;
+  text-decoration: none;
+}
+#title a:visited {
+  color:white;
+  text-decoration: none;
+}
+#title a:hover {
+  color: #03dffc;
+  text-decoration: none;
+}
+#titleindex a:link {
+  color:#00c510;
+  text-decoration: none;
+}
+#titleindex a:visited {
+  color:#00c510;
+  text-decoration: none;
+}
+#titleindex a:hover {
+  color: #00c510;
+  text-decoration: none;
+}
+#topofpage a:link {
+  color:#98c8ce;
+  text-decoration: none;
+}
+#topofpage a:visited {
+  color:#98c8ce;
+  text-decoration: none;
+}
+#topofpage a:hover {
+  color: #03dffc;
+  text-decoration: none;
+}
+#topofpage {
+  text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000;
+  background-image: url(resources/arrowbuttonup.png);
+  background-repeat: no-repeat;
+  background-size: contain;
+  background-position: center;
+  max-width: fit-content;
+  margin-left: auto; 
+  margin-right: 20vw;
+  font-size: 2rem;
+  position:sticky;
+  top:0;
+  z-index:101;
+  padding-top: 1.5%;
+}
+#menu {
+  margin: auto;
+  margin-top: 1rem;
+  margin-bottom: 1rem;
+  max-width:90vw;
+  border: 3rem ridge white;
+  width: fit-content;
+}
+.menucolumn {
+  padding: 2rem;
+  display: inline-block;
+  text-align: center;
+}
+.pgtitle {
+  color: #ffffff;
+  /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
+  text-decoration: underline;
+  font-size: 7rem;
+  text-align: center;
+  display: block;
+  padding-top: 3rem;
+}
+.menuentry {
+  margin: auto;
+  font-size: 4rem;
+  text-align: center;
+
+}
+a:link {
+  color:white;
+  text-decoration: none;
+}
+a:visited {
+  color: #baf7ff;
+  text-decoration: none;
+}
+a:hover {
+  color: #03dffc;
+  text-decoration: underline;
+}
+h2 {
+  color: #ffffff;
+  /* text-shadow: -1px -1px 0 #000, 1px -1px 0 #000, -1px 1px 0 #000, 1px 1px 0 #000; */
+  text-decoration: underline;
+  font-size: 7rem;
+  text-align: center;
+  font-weight: normal;
+  margin-bottom:0;
+}
+h3 {
+  color:white;
+  font-size:4rem;
+  font-weight:normal;
+  margin-top:0;
+  margin-bottom:0;
+}
+h4 {
+  font-size: 7rem;
+  color: #98c8ce;
+  text-align: center;
+  text-decoration: underline;
+  margin: 0;
+}
+h5 {
+ font-weight: normal;
+ font-size: 3rem;
+ color: #98c8ce;
+ text-align: center;
+ margin: 0;
+}
+.chapter {
+  color:#98c8ce;
+  text-align: center;
+  display: block;
+  font-size:5rem;
+  font-weight:normal;
+}
+.subtitlebiblia {
+  display: block;
+  text-align: center;
+  font-style: italic;
+  color:#98c8ce;
+  font-weight: normal;
+  font-size:3rem;
+}
+/* Recetas */
+.body {
+  color: #000000;
+  font-size: 2em;
+  margin: auto;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  max-width: 2000px;
+  padding-left:10vw;
+  padding-right: 10vw;
+}
+.para {
+  color: #98c8ce;
+  text-align: left;
+  font-size: 3rem;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  max-width: 70vw;
+  margin: auto;
+}
+.subtitlerecetas {
+  text-decoration: underline;
+  font-style:italic;
+  font-size: 4rem;
+}
+.paraproverbios {
+  color: #98c8ce;
+  text-align: center;
+  font-size: 3rem;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  max-width: 70vw;
+  margin: auto;
+}
+
+/**Biblia**/
+.parabiblia {
+  color: #98c8ce;
+  text-align: left;
+  font-size: 3rem;
+  -webkit-user-select: none;
+  -webkit-touch-callout: none;
+  -moz-user-select: none;
+  -ms-user-select: none;
+  user-select: none;
+  max-width: 60vw;
+  margin: auto;
+}
+.hidden {
+  color:#98c8ce;
+  font-size: 4rem;
+  text-align: center;
+  font-style: italic;
+  width: fit-content;
+  margin: auto;
+}
+.intro {
+  color: #98c8ce;
+  text-align: left;
+  font-size: 3rem;
+  max-width: 95vw;
+  margin: auto;
+  max-width: 60vw;
+}
+.hidden:hover {
+  color: #03dffc;
+  text-decoration: underline;
+  cursor: pointer;
+}
